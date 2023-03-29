@@ -69,7 +69,7 @@ if ((isset($_POST["submit"]))) {
 
 
 <?php
-$con = mysqli_connect("localhost", "plantgenetic", "gvJBju6D", "plantgenetic");
+$con = mysqli_connect("localhost", "", "", "");
 mysqli_query($con, "SET NAMES 'utf8' ");
 date_default_timezone_set('Asia/Bangkok');
 
